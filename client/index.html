@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diamond Jubilee Girls Hostel – MNNIT Allahabad</title>
+    <meta name="description" content="Official website of Diamond Jubilee Girls Hostel, Motilal Nehru National Institute of Technology Allahabad." />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              navy: {
+                50:  '#f0f4ff',
+                100: '#e0e9ff',
+                200: '#c0d0ff',
+                300: '#93aeff',
+                400: '#6080ff',
+                500: '#3d5aff',
+                600: '#1a2f6e',
+                700: '#152454',
+                800: '#101b3f',
+                900: '#0b122b',
+                950: '#070c1e',
+              },
+              ivory: {
+                50:  '#fdfcf8',
+                100: '#faf7f0',
+                200: '#f5ede0',
+                300: '#ecddc8',
+              },
+              gold: {
+                300: '#f0d06a',
+                400: '#e8b84b',
+                500: '#c9952a',
+                600: '#a87620',
+              },
+            },
+            fontFamily: {
+              serif:  ['Playfair Display', 'Georgia', 'serif'],
+              sans:   ['Inter', 'system-ui', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+    <style>
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body { font-family: 'Inter', system-ui, sans-serif; background: #faf7f0; color: #1a1a2e; }
+      .font-serif { font-family: 'Playfair Display', Georgia, serif; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
